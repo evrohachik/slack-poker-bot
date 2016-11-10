@@ -164,8 +164,8 @@ class Bot {
   //
   // players - The players participating in the game
   addBotPlayers(players) {
-    //let bot1 = new WeakBot('Phil Hellmuth');
-    //players.push(bot1);
+    let bot1 = new WeakBot('Phil Hellmuth');
+    players.push(bot1);
     
     //let bot2 = new AggroBot('Phil Ivey');
     //players.push(bot2);
